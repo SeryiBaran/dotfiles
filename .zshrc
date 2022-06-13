@@ -138,13 +138,6 @@ prompt_dir() {
     prompt_segment blue $CURRENT_FG '%25<...<%~%<<'
 }
 
-prompt_virtualenv() {
-  local virtualenv_path="$VIRTUAL_ENV"
-  if [[ -n $virtualenv_path && -n $VIRTUAL_ENV_DISABLE_PROMPT ]]; then
-    prompt_segment blue black "(`basename $virtualenv_path`)"
-  fi
-}
-
 ZSH_THEME_NVM_PROMPT_PREFIX="  "
 ZSH_THEME_NVM_PROMPT_SUFFIX=" "
 
