@@ -113,6 +113,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 alias c="clear"
 alias aliases='nano ~/.zshrc'
 alias aliaspts="LC_ALL=C systemsettings5"
