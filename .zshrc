@@ -19,9 +19,8 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # ZSH_THEME="af-magic"
 # ZSH_THEME="bira"
-ZSH_THEME="agnoster"
-# ZSH_THEME="powerlevel10k/powerlevel10k"
-# ZSH_THEME="meritt"
+# ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -115,38 +114,48 @@ source $ZSH/oh-my-zsh.sh
 
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'
+# alias l='ls -CF'
+alias l='ls -alF'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
 alias aliaspts="LC_ALL=C systemsettings5"
 
-prompt_context() {
-  prompt_segment '#4e4e4e' '#DD4814' '\uf31b '
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment '#4e4e4e' default "%(!.%{%F{yellow}%}.)$USER"
-  fi
-}
 
-prompt_status() {
-  local symbols
-  symbols=()
-  [[ $RETVAL -ne 0 ]] && symbols+="%{%F{red}%}✘"
-  [[ $UID -eq 0 ]] && symbols+="%{%F{yellow}%}⚡"
-  [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="%{%F{cyan}%}⚙"
 
-  [[ -n "$symbols" ]] && prompt_segment "#383C3E" default "$symbols"
-}
 
-prompt_dir() {
-    prompt_segment blue $CURRENT_FG '%25<...<%~%<<'
-}
+# -------------------------- AGNOSTER
+# prompt_context() {
+  # prompt_segment '#4e4e4e' '#DD4814' '\uf31b '
+  # if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    # prompt_segment '#4e4e4e' default "%(!.%{%F{yellow}%}.)$USER"
+  # fi
+# }
+# 
+# prompt_status() {
+  # local symbols
+  # symbols=()
+  # [[ $RETVAL -ne 0 ]] && symbols+="%{%F{red}%}✘"
+  # [[ $UID -eq 0 ]] && symbols+="%{%F{yellow}%}⚡"
+  # [[ $(jobs -l | wc -l) -gt 0 ]] && symbols+="%{%F{cyan}%}⚙"
+# 
+  # [[ -n "$symbols" ]] && prompt_segment "#383C3E" default "$symbols"
+# }
+# 
+# prompt_dir() {
+    # prompt_segment blue $CURRENT_FG '%25<...<%~%<<'
+# }
+# 
+# ZSH_THEME_NVM_PROMPT_PREFIX="  "
+# ZSH_THEME_NVM_PROMPT_SUFFIX=" "
+# 
+# RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
 
-ZSH_THEME_NVM_PROMPT_PREFIX="  "
-ZSH_THEME_NVM_PROMPT_SUFFIX=" "
+# -------------------------- AGNOSTER
 
-RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
+
+
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
