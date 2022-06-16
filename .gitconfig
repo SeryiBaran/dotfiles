@@ -1,0 +1,20 @@
+[user]
+	email = seryibaranminepy@yandex.ru
+	name = SeryiBaran
+[alias]
+	s = status --short
+	co = checkout
+	r = restore
+	l = log --oneline --graph --decorate --all
+	rhard = reset --hard HEAD~1
+	rsoft = reset --soft HEAD~1
+	br = branch
+	lg = log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)'
+	ll = log --pretty=format:'%H [%cd]: %an - %s' --graph --date=format:%c
+	sg = status
+	df = diff
+	cmt = commit
+[credential]
+	helper = store
+[init]
+	defaultBranch = master
