@@ -126,3 +126,4 @@ alias c='clear'
 alias aliases='nano ~/.bashrc'
 alias aliaspts="LC_ALL=C systemsettings5"
 alias g="git"
+alias m="micro"
