@@ -120,7 +120,6 @@ alias l='ls -alF'
 alias c="clear"
 alias aliases='nano ~/.zshrc'
 alias aliaspts="LC_ALL=C systemsettings5"
-alias g="git"
 alias m="micro"
 
 
