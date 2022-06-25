@@ -127,3 +127,4 @@ alias aliases='nano ~/.bashrc'
 alias aliaspts="LC_ALL=C systemsettings5"
 alias g="git"
 alias m="micro"
+alias tb="nc termbin.com 9999"

@@ -121,6 +121,7 @@ alias c="clear"
 alias aliases='nano ~/.zshrc'
 alias aliaspts="LC_ALL=C systemsettings5"
 alias m="micro"
+alias tb="nc termbin.com 9999"
 
 
 
