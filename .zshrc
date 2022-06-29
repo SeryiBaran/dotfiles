@@ -112,10 +112,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ll='ls -alF'
-alias la='ls -A'
-# alias l='ls -CF'
-alias l='ls -alF'
+# alias ll='ls -alF'
+# alias la='ls -A'
+# # alias l='ls -CF'
+# alias l='ls -alF'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
@@ -123,11 +123,13 @@ alias aliaspts="LC_ALL=C systemsettings5"
 alias m="micro"
 alias tb="nc termbin.com 9999"
 
-source $(dirname $(gem which colorls))/tab_complete.sh
+alias la='colorls -A'
+alias l='colorls -al'
 
 alias cl="colorls -la"
 alias ct="colorls --tree"
 
+source $(dirname $(gem which colorls))/tab_complete.sh
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte-2.91.sh
