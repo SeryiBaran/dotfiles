@@ -129,6 +129,10 @@ alias cl="colorls -la"
 alias ct="colorls --tree"
 
 
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte-2.91.sh
+fi
+
 
 # -------------------------- AGNOSTER
 # prompt_context() {
@@ -158,10 +162,6 @@ alias ct="colorls --tree"
 # RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
 
 # -------------------------- AGNOSTER
-
-
-
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
