@@ -123,10 +123,9 @@ alias aliaspts="LC_ALL=C systemsettings5"
 alias m="micro"
 alias tb="nc termbin.com 9999"
 
-alias la='colorls -A'
-alias l='colorls -al'
+alias l='colorls -A'
+alias la='colorls -al'
 
-alias cl="colorls -la"
 alias ct="colorls --tree"
 
 source $(dirname $(gem which colorls))/tab_complete.sh
