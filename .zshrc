@@ -134,7 +134,6 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte-2.91.sh
 fi
 
-
 # -------------------------- AGNOSTER
 # prompt_context() {
   # prompt_segment '#4e4e4e' '#DD4814' '\uf31b '

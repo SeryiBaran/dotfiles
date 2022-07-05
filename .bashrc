@@ -129,7 +129,13 @@ alias g="git"
 alias m="micro"
 alias tb="nc termbin.com 9999"
 
+alias l='colorls -A'
+alias la='colorls -al'
+
+alias ct="colorls --tree"
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
-alias cl="colorls -la"
-alias ct="colorls --tree"
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte-2.91.sh
+fi
