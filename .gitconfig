@@ -1,6 +1,7 @@
 [user]
 	email = seryibaranminepy@yandex.ru
 	name = SeryiBaran
+	signingkey = seryibaranminepy@yandex.ru
 [alias]
 	s = status --short
 	co = checkout
@@ -18,3 +19,7 @@
 	helper = store
 [init]
 	defaultBranch = master
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg2
