@@ -129,8 +129,8 @@ alias g="git"
 alias m="micro"
 alias tb="nc termbin.com 9999"
 
-alias l='colorls -A'
-alias la='colorls -al'
+alias l='colorls -A --gs --sd'
+alias la='colorls -lA --gs --sd'
 
 alias ct="colorls --tree"
 
