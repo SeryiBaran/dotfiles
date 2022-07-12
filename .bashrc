@@ -128,8 +128,6 @@ alias la='colorls -lA --gs --sd'
 
 alias ct="colorls --tree"
 
-alias yarn="yarn --emoji"
-
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
