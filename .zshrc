@@ -158,10 +158,10 @@ prompt_dir() {
     prompt_segment blue $CURRENT_FG '%25<...<%~%<<'
 }
 
-ZSH_THEME_NVM_PROMPT_PREFIX="  "
-ZSH_THEME_NVM_PROMPT_SUFFIX=" "
+# ZSH_THEME_NVM_PROMPT_PREFIX="  "
+# ZSH_THEME_NVM_PROMPT_SUFFIX=" "
 
-RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
+# RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
 
 # -------------------------- AGNOSTER
 
