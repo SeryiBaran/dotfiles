@@ -130,7 +130,7 @@ alias ct="colorls --tree"
 
 alias chr="~/allfiles/chromium/run.sh"
 
-alias npa="ncu -u --interactive --format group"
+alias npa="npm-check-updates -u --interactive --format group"
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 
