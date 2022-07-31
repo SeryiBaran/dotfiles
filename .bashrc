@@ -88,10 +88,10 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-# # alias l='ls -CF'
-alias l='ls -alF'
+# alias ll='ls -alF'
+# alias la='ls -A'
+# alias l='ls -CF'
+# alias l='ls -alF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -117,15 +117,23 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias c='clear'
-alias aliases='nano ~/.bashrc'
-alias aliaspts="LC_ALL=C systemsettings5"
-alias g="git"
-alias m="micro"
-alias tb="nc termbin.com 9999"
+# alias ll='ls -alF'
+# alias la='ls -A'
+# # alias l='ls -CF'
+# alias l='ls -alF'
 
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
+
+alias ll='exa -alF'
+alias la='exa -A'
+alias l='exa -alF'
+
+alias c="clear"
+alias aliases='nano ~/.zshrc'
+alias aliaspts="LC_ALL=C systemsettings5"
+alias m="micro"
+alias tb="nc termbin.com 9999"
 
 alias ct="colorls --tree"
 

@@ -112,19 +112,23 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ll='ls -alF'
-alias la='ls -A'
+# alias ll='ls -alF'
+# alias la='ls -A'
 # # alias l='ls -CF'
-alias l='ls -alF'
+# alias l='ls -alF'
+
+# alias l='colorls -A --gs --sd'
+# alias la='colorls -lA --gs --sd'
+
+alias ll='exa -alF'
+alias la='exa -A'
+alias l='exa -alF'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
 alias aliaspts="LC_ALL=C systemsettings5"
 alias m="micro"
 alias tb="nc termbin.com 9999"
-
-# alias l='colorls -A --gs --sd'
-# alias la='colorls -lA --gs --sd'
 
 alias ct="colorls --tree"
 
