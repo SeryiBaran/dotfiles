@@ -125,7 +125,7 @@ fi
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
 
-alias l='exa -alF'
+alias l='exa -alF -s type'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
