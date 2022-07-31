@@ -127,7 +127,7 @@ fi
 
 
 alias l='exa -alF -s type --group-directories-first --icons'
-alias ct='l --tree --ignore-glob ((\.git)|(node_modules))'
+# alias ct='l --tree'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
@@ -135,7 +135,7 @@ alias aliaspts="LC_ALL=C systemsettings5"
 alias m="micro"
 alias tb="nc termbin.com 9999"
 
-# alias ct="colorls --tree"
+alias ct="colorls --tree"
 
 alias chr="~/allfiles/chromium/run.sh"
 
