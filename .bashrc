@@ -141,6 +141,8 @@ alias chr="~/allfiles/chromium/run.sh"
 
 alias npa="npm-check-updates -u --interactive --format group"
 
+alias clg="bat --theme TwoDark"
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
