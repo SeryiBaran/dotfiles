@@ -120,8 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
 
-alias ll='exa -alF'
-alias la='exa -A'
 alias l='exa -alF'
 
 alias c="clear"
