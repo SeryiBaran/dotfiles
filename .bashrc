@@ -127,7 +127,7 @@ fi
 
 
 alias l='exa -alF -s type --group-directories-first --icons'
-alias ct='l --tree --ignore-glob .git node_modules'
+alias ct='l --tree --ignore-glob ((\.git)|(node_modules))'
 
 alias c="clear"
 alias aliases='nano ~/.zshrc'
