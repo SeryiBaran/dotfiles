@@ -117,16 +117,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# alias ll='ls -alF'
-# alias la='ls -A'
+alias ll='ls -alF'
+alias la='ls -A'
 # # alias l='ls -CF'
-# alias l='ls -alF'
+alias l='ls -alF'
 
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
 
 
-alias l='exa -alF -s type --group-directories-first --icons'
+# alias l='exa -alF -s type --group-directories-first --icons'
 # alias ct='l --tree'
 
 alias c="clear"
