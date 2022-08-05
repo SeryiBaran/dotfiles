@@ -137,6 +137,8 @@ alias npa="npm-check-updates -u --interactive --format group"
 
 alias clg="bat --theme TwoDark"
 
+alias recas="asciinema rec -c bash"
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
