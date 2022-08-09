@@ -102,9 +102,9 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+# if [ -f ~/.bash_aliases ]; then
+    # . ~/.bash_aliases
+# fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -117,33 +117,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias ll='ls -alF'
-alias la='ls -A'
-# # alias l='ls -CF'
-alias l='ls -alF'
-
-# alias l='colorls -A --gs --sd'
-# alias la='colorls -lA --gs --sd'
-
-
-# alias l='exa -alF -s type --group-directories-first --icons'
-# alias ct='l --tree'
-
-alias c="clear"
-alias aliases='nano ~/.zshrc'
-alias aliaspts="LC_ALL=C systemsettings5"
-alias m="micro"
-alias tb="nc termbin.com 9999"
-
-alias ct="colorls --tree"
-
-alias chr="~/allfiles/chromium/run.sh"
-
-alias npa="npm-check-updates -u --interactive --format group"
-
-alias clg="bat --theme TwoDark"
-
-alias recas="asciinema rec -c bash"
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 

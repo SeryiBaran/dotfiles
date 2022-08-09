@@ -113,32 +113,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# alias ll='ls -alF'
-# alias la='ls -A'
-# # alias l='ls -CF'
-# alias l='ls -alF'
-
-# alias l='colorls -A --gs --sd'
-# alias la='colorls -lA --gs --sd'
-
-alias l='exa -alF -s type --group-directories-first --icons'
-# alias ct='l --tree'
-
-alias c="clear"
-alias aliases='nano ~/.zshrc'
-alias aliaspts="LC_ALL=C systemsettings5"
-alias m="micro"
-alias tb="nc termbin.com 9999"
-
-alias ct="colorls --tree"
-
-alias chr="~/allfiles/chromium/run.sh"
-
-alias npa="npm-check-updates -u --interactive --format group"
-
-alias clg="bat --theme TwoDark"
-
-alias recas="asciinema rec -c bash"
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 
