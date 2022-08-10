@@ -1,7 +1,7 @@
-# alias ll='ls -alF'
-# alias la='ls -A'
-# # alias l='ls -CF'
-# alias l='ls -alF'
+alias ll='ls -alF'
+alias la='ls -A'
+# alias l='ls -CF'
+alias l='ls -alF'
 
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
