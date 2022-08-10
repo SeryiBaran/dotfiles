@@ -25,3 +25,5 @@ alias npa="npm-check-updates -u --interactive --format group"
 alias clg="bat --theme TwoDark"
 
 alias recas="asciinema rec -c bash"
+
+alias cl="clear && l"
