@@ -3,12 +3,14 @@ format = """
 $username\
 [](bg:#5A6063 fg:#383C3E)\
 $directory\
-[](fg:#5A6063 bg:#B3B3B3)\
+[](fg:#5A6063 bg:#B0B0B0)\
+$nodejs\
+[](fg:#B0B0B0 bg:#CFCFCF)\
+$python\
+[](fg:#CFCFCF bg:#FFFFFF)\
 $git_branch\
 $git_status\
-[](fg:#B3B3B3 bg:#CCCCCC)\
-$nodejs\
-[ ](fg:#CCCCCC)\
+[ ](fg:#FFFFFF)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -34,6 +36,7 @@ truncation_symbol = "…/"
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
+"*" = "$PWD"
 # Keep in mind that the order matters. For example:
 # "Important Documents" = "  "
 # will not be replaced, because "Documents" was already substituted before.
@@ -42,14 +45,19 @@ truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "fg:black bg:#B3B3B3"
+style = "fg:black bg:#FFFFFF"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "fg:black bg:#B3B3B3"
+style = "fg:black bg:#FFFFFF"
 format = '[($all_status$ahead_behind )]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:black bg:#CCCCCC"
+style = "fg:black bg:#B0B0B0"
+format = '[ $symbol ($version) ]($style)'
+
+[python]
+symbol = ""
+style = "fg:black bg:#CFCFCF"
 format = '[ $symbol ($version) ]($style)'
