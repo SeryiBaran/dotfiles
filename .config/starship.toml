@@ -8,7 +8,6 @@ $git_branch\
 $git_status\
 [](fg:#B3B3B3 bg:#CCCCCC)\
 $nodejs\
-$rust\
 [ ](fg:#CCCCCC)\
 """
 
@@ -20,8 +19,7 @@ $rust\
 show_always = true
 style_user = "bg:#383C3E"
 style_root = "bg:#383C3E"
-# format = '[$user ]($style)'
-format = '[ ]($style)'
+format = '[ $user ]($style)'
 
 [directory]
 style = "bg:#5A6063"
@@ -45,19 +43,13 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "fg:black bg:#B3B3B3"
-format = '[[ $symbol $branch ](fg:black bg:#B3B3B3)]($style)'
+format = '[ $symbol $branch ]($style)'
 
 [git_status]
 style = "fg:black bg:#B3B3B3"
-format = '[[($all_status$ahead_behind )](fg:black bg:#B3B3B3)]($style)'
+format = '[($all_status$ahead_behind )]($style)'
 
 [nodejs]
 symbol = ""
 style = "fg:black bg:#CCCCCC"
-format = '[[ $symbol ($version) ](fg:black bg:#CCCCCC)]($style)'
-
-# [time]
-# disabled = false
-# time_format = "%R" # Hour:Minute Format
-# style = "bg:#33658A"
-# format = '[[ $time ](bg:#33658A)]($style)'
+format = '[ $symbol ($version) ]($style)'
