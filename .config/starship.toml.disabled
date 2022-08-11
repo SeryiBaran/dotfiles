@@ -1,3 +1,5 @@
+command_timeout = 1000
+
 add_newline = false
 
 format = """
@@ -15,6 +17,12 @@ $git_status\
 [ ](fg:#FFFFFF)\
 """
 
+right_format = """
+[](fg:#383C3E)\
+$localip\
+[█](#383C3E)\
+"""
+
 # Disable the blank line at the start of the prompt
 # add_newline = false
 
@@ -23,7 +31,7 @@ $git_status\
 show_always = true
 style_user = "bg:#383C3E"
 style_root = "bg:#383C3E"
-format = '[ $user ]($style)'
+format = '[ ]($style)'
 
 [directory]
 style = "bg:#5A6063"
@@ -62,3 +70,9 @@ format = '[ $symbol ($version) ]($style)'
 symbol = ""
 style = "fg:black bg:#CFCFCF"
 format = '[ $symbol ($version) ]($style)'
+
+[localip]
+ssh_only = false
+style = "bg:#383C3E"
+format = "[ $localipv4 ]($style)"
+disabled = false
