@@ -22,7 +22,7 @@ alias chr="~/allfiles/chromium/run.sh"
 
 alias npa="npm-check-updates -u --interactive --format group"
 
-alias clg="bat --theme TwoDark"
+alias cla="bat --theme TwoDark"
 
 alias recas="asciinema rec -c bash"
 
