@@ -16,11 +16,12 @@
     "sideBarSectionHeader.background": "#2b3038",
     "sideBarSectionHeader.border": "#4e4e4e",
     "activityBar.border": "#4e4e4e",
-    "statusBar.background": "#101116",
+    "statusBar.background": "#2d42aa",
+    "statusBar.foreground": "#ffffff",
     "statusBar.border": "#4e4e4e",
     "scrollbarSlider.activeBackground": "#ffffff",
-    "scrollbarSlider.hoverBackground": "#ffffff83"
-},
+    "scrollbarSlider.hoverBackground": "#ffffff83",
+  },
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -35,7 +36,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.confirmSync": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
@@ -53,5 +54,7 @@
   "editor.linkedEditing": true,
   "workbench.iconTheme": "vscode-jetbrains-icon-theme",
   "workbench.colorTheme": "One Dark Pro Mix",
-  "window.zoomLevel": 1
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
