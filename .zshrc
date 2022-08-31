@@ -150,3 +150,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 # eval "$(starship init zsh)"
 
 export EDITOR="micro"
+
+echo "|-----------------------------------|"
+echo "| CapsLock - переключить раскладку! |"
+echo "|-----------------------------------|"
