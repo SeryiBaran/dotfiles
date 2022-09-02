@@ -50,11 +50,14 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": true,
-  "terminal.integrated.defaultProfile.linux": "zsh",
   "editor.linkedEditing": true,
   "workbench.iconTheme": "vscode-jetbrains-icon-theme",
-  "workbench.colorTheme": "One Dark Pro Mix",
+  "workbench.colorTheme": "One Dark Pro",
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.gitProtocol": "ssh",
+  "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
