@@ -6,6 +6,8 @@ alias l='ls -alF'
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
 
+alias l="exa -alF -s type --group-directories-first --icons"
+
 # alias ct='l --tree'
 
 alias c="clear"
@@ -25,6 +27,3 @@ alias cla="bat --theme TwoDark"
 alias recas="asciinema rec -c bash"
 
 alias cl="clear && l"
-
-alias ru="setxkbmap ru,us"
-alias en="setxkbmap ru,us"
