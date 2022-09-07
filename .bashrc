@@ -121,6 +121,10 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
 source $(dirname $(gem which colorls))/tab_complete.sh
 
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
