@@ -25,3 +25,6 @@ alias cla="bat --theme TwoDark"
 alias recas="asciinema rec -c bash"
 
 alias cl="clear && l"
+
+alias ru="setxkbmap ru,us"
+alias en="setxkbmap ru,us"
