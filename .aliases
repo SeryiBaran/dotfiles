@@ -34,3 +34,7 @@ alias tarx="tar xzvf" # Extract tar
 # Short
 alias q="exit"
 alias c="clear"
+
+# Ping
+alias ping='ping -c 5'
+alias fastping="ping -c 100 -i 0.2"
