@@ -1,29 +1,36 @@
+alias aliases='$EDITOR ~/.aliases'
+
+# Kubuntu default
 alias ll='ls -alF'
 alias la='ls -A'
 # alias l='ls -CF'
 alias l='ls -alF'
 
+# Color ls
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
-
 alias l="exa -alF -s type --group-directories-first --icons"
-
-# alias ct='l --tree'
-
-alias c="clear"
-alias aliases='nano ~/.zshrc'
-alias aliaspts="LC_ALL=C systemsettings5"
-alias m="micro"
-alias tb="nc termbin.com 9999"
-
 alias ct="colorls --tree"
 
+alias m="micro"
 alias chr="~/allfiles/chromium/run.sh"
-
 alias npa="npm-check-updates -u --interactive --format group"
-
 alias cla="bat --theme TwoDark"
+
+# Use like so:
+#   echo "Hello termbin" | tb
+alias tb="nc termbin.com 9999"
 
 alias recas="asciinema rec -c bash"
 
-alias cl="clear && l"
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# Archives
+alias tarc="tar czvf" # Create tar
+alias tarx="tar xzvf" # Extract tar
+
+# Short
+alias q="exit"
+alias c="clear"
