@@ -40,3 +40,4 @@ alias ping='ping -c 5'
 alias fastping="ping -c 100 -i 0.2"
 
 alias calcul="bc -l"
+alias qr='qrencode -m 2 -t utf8 <<< "$1"'
