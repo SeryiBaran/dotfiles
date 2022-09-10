@@ -98,6 +98,10 @@ fi
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
+fi
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
@@ -124,9 +128,5 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 . "$HOME/.cargo/env"
 
 export EDITOR="micro"
-
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
-fi
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
