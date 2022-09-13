@@ -43,7 +43,7 @@ alias calcul="bc -l"
 
 # QR Codes
 alias qr='qrencode -m 2 -t utf8 <<< "$1"'
-alias qrupfile='qrcp $1 --port 3000 -k'
-alias qrdownfile='qrcp receive --port 3000 -k'
+alias qrup='qrcp $1 --port 3000 -k'
+alias qrdown='qrcp receive --port 3000 -k'
 
 alias to512="rm -rf out && mkdir out && find . -mindepth 1 -maxdepth 1 -name \"*.png\" -exec convert {} -resize 512x512 out/{}.OUT.png \;"
