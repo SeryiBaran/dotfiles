@@ -10,7 +10,8 @@ alias l='ls -alF'
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
 alias l="exa -alF -s type --group-directories-first --icons"
-alias ct="colorls --tree"
+# alias ct="colorls --tree"
+alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
 alias m="micro"
 alias chr="~/allfiles/chromium/run.sh"
