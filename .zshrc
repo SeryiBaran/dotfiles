@@ -12,7 +12,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # ZSH_THEME="af-magic"
 # ZSH_THEME="bira"
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME="amuse"
 
@@ -118,12 +118,16 @@ fi
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
-eval "$(starship init zsh)"
-
 export EDITOR="micro"
 
-. ~/.zsh_agnoster_config
+# . ~/.zsh_agnoster_config
+
+# eval "$(starship init zsh)"
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
+
+fpath+=($HOME/.zsh/pure)
+autoload -U promptinit; promptinit
+prompt pure
