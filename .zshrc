@@ -10,12 +10,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
 
-# ZSH_THEME="af-magic"
-# ZSH_THEME="bira"
-# ZSH_THEME="agnoster"
-# ZSH_THEME="powerlevel10k/powerlevel10k"
-# ZSH_THEME="amuse"
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -106,26 +100,20 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [ -f ~/.zsh_bash_config ]; then
+    . ~/.zsh_bash_config
+fi
+
 if [ -f ~/.zsh_aliases ]; then
     . ~/.zsh_aliases
 fi
 
-source $(dirname $(gem which colorls))/tab_complete.sh
-
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte-2.91.sh
-fi
-
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
-export EDITOR="micro"
-
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
-fi
-
-# . ~/.zsh_agnoster_config
-
-. ~/.zsh_pure_config
-
 # eval "$(starship init zsh)"
+
+# if [ -f ~/.zsh_agnoster_config ]; then
+    # . ~/.zsh_agnoster_config
+# fi
+
+if [ -f ~/.zsh_pure_config ]; then
+    . ~/.zsh_pure_config
+fi

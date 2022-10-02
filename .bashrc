@@ -117,16 +117,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source $(dirname $(gem which colorls))/tab_complete.sh
-
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte-2.91.sh
-fi
-
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
-. "$HOME/.cargo/env"
-
-export EDITOR="micro"
-
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+if [ -f ~/.zsh_bash_config ]; then
+    . ~/.zsh_bash_config
+fi
