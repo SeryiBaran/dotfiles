@@ -114,6 +114,10 @@ fi
     # . ~/.zsh_agnoster_config
 # fi
 
-if [ -f ~/.zsh_pure_config ]; then
-    . ~/.zsh_pure_config
+# if [ -f ~/.zsh_pure_config ]; then
+    # . ~/.zsh_pure_config
+# fi
+
+if [ -f ~/.zsh_omp_config ]; then
+    . ~/.zsh_omp_config
 fi
