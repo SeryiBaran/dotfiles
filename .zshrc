@@ -120,14 +120,12 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 export EDITOR="micro"
 
-# . ~/.zsh_agnoster_config
-
-# eval "$(starship init zsh)"
-
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-fpath+=($HOME/.zsh/pure)
-autoload -U promptinit; promptinit
-prompt pure
+# . ~/.zsh_agnoster_config
+
+. ~/.zsh_pure_config
+
+# eval "$(starship init zsh)"
