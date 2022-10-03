@@ -1,1 +1,1 @@
-alias l="exa -alF -s type --group-directories-first"
+alias l="exa -alF -s type --group-directories-first --no-icons"

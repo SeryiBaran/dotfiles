@@ -98,13 +98,9 @@ fi
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
-fi
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
+# if [ -f ~/.aliases ]; then
+    # . ~/.aliases
+# fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -121,4 +117,8 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;3
 
 if [ -f ~/.zsh_bash_config ]; then
     . ~/.zsh_bash_config
+fi
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
 fi
