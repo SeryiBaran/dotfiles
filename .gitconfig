@@ -19,7 +19,9 @@
 	helper = store
 [init]
 	defaultBranch = master
-[commit]
-	gpgsign = true
 [gpg]
 	program = /usr/bin/gpg2
+[commit]
+	gpgsign = true
+[core]
+	pager = less -F -X
