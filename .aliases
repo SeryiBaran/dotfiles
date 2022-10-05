@@ -52,4 +52,6 @@ alias qrd='qrcp receive --port 3000 -k'
 # Node.js utils aliases
 alias brs='browser-sync start --server --files "**/*"'
 
+# Terminals
 alias xtrm='xterm -fa "MesloLGS NF" -fs 13'
+alias tt='byobu'

@@ -9,6 +9,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 . "$HOME/.cargo/env"
 
 export EDITOR="micro"
+export TMUX="byobu"
 
 if [ -f ~/.aliases ]; then
     . ~/.aliases
