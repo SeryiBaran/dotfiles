@@ -1,7 +1,7 @@
 [user]
 	email = seryibaranminepy@yandex.ru
 	name = SeryiBaran
-	signingkey = seryibaranminepy@yandex.ru
+	signingKey = 7841826A34AA41A467A0D877D2304E3C882327E9
 [alias]
 	s = status --short
 	co = checkout
