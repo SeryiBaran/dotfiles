@@ -55,7 +55,6 @@ alias brs='browser-sync start --server --files "**/*"'
 
 # Terminals
 alias xtrm='xterm -fa "MesloLGS NF" -fs 13'
-alias tt='byobu'
 
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
