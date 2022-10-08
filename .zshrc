@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 # ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
@@ -107,9 +107,9 @@ source $ZSH/oh-my-zsh.sh
     # . ~/.zsh_agnoster_config
 # fi
 
-if [ -f ~/.zsh_pure_config ]; then
-    . ~/.zsh_pure_config
-fi
+# if [ -f ~/.zsh_pure_config ]; then
+    # . ~/.zsh_pure_config
+# fi
 
 # if [ -f ~/.zsh_omp_config ]; then
     # . ~/.zsh_omp_config
