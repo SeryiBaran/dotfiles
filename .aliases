@@ -58,4 +58,6 @@ alias xtrm='xterm -fa "MesloLGS NF" -fs 13'
 
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
-alias gitkraken="~/gitkraken/gitkraken"
+# Docker
+alias ddnginx='docker run --rm -p 80:80 -v "$PWD:/usr/share/nginx/html:ro" nginx:alpine'
+alias ddapache='docker run --rm -p 80:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:alpine'
