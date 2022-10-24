@@ -11,3 +11,7 @@ export EDITOR="micro"
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
+
+if [ -f ~/extract.sh ]; then
+    . ~/extract.sh
+fi
