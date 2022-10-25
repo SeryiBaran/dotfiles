@@ -14,7 +14,7 @@ alias ll="exa -aF -s type --group-directories-first --icons"
 # alias ct="colorls --tree"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
-alias m="micro"
+alias m="micro -colorscheme one-dark"
 alias chr="~/chromium/run.sh"
 alias novnc="~/novnc/utils/novnc_proxy"
 alias npa="npm-check-updates -u --interactive --format group"
