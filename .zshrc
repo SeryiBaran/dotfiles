@@ -115,8 +115,8 @@ source $ZSH/oh-my-zsh.sh
     # . ~/.zsh_omp_config
 # fi
 
-if [ -f ~/.zsh_bash_config ]; then
-    . ~/.zsh_bash_config
+if [ -f ~/.shells_config ]; then
+    . ~/.shells_config
 fi
 
 if [ -f ~/.zsh_aliases ]; then
