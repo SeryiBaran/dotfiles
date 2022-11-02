@@ -25,8 +25,10 @@ alias cla="bat --theme TwoDark"
 #   echo "Hello termbin" | tb
 alias tb="nc termbin.com 9999"
 
-# alias recas="asciinema rec -c bash"
-alias recas='asciinema rec /tmp/asciinema.cast && agg /tmp/asciinema.cast ./asciinema.gif --font-family "MesloLGS NF"'
+alias recas="asciinema rec"
+alias recasbash="asciinema rec -c bash"
+alias recasgif='rm asciicast.cast asciicast.gif && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF"'
+alias recasmp4='rm asciicast.cast asciicast.gif asciicast.mp4 && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF" && ffmpeg -i asciicast.gif -movflags faststart asciicast.mp4'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
