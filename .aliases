@@ -27,8 +27,8 @@ alias tb="nc termbin.com 9999"
 
 alias recas="asciinema rec"
 alias recasbash="asciinema rec -c bash"
-alias recasgif='rm asciicast.cast asciicast.gif && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF"'
-alias recasmp4='rm asciicast.cast asciicast.gif asciicast.mp4 && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF" && ffmpeg -i asciicast.gif -movflags faststart asciicast.mp4'
+alias recasgif='rm -f asciicast.cast asciicast.gif && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF"'
+alias recasmp4='rm -f asciicast.cast asciicast.gif asciicast.mp4 && asciinema rec ./asciicast.cast && agg ./asciicast.cast ./asciicast.gif --font-family "MesloLGS NF" && ffmpeg -i asciicast.gif -movflags faststart asciicast.mp4'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -66,3 +66,5 @@ alias jk="bundle exec jekyll s --host=0.0.0.0"
 alias ddnginx='docker run --rm -p 80:80 -v "$PWD:/usr/share/nginx/html:ro" nginx:alpine'
 alias ddapache='docker run --rm -p 80:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:alpine'
 alias ddssh='ssh-keygen -f "/home/ivan/.ssh/known_hosts" -R "[n1.loc]:3000" && ssh-copy-id -p 3000 user@n1.loc && ssh -p 3000 user@n1.loc'
+
+alias blacktrm='flatpak run com.raggesilver.BlackBox'
