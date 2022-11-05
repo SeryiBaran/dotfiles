@@ -9,10 +9,16 @@ alias l='ls -alF'
 # Color ls
 # alias l='colorls -A --gs --sd'
 # alias la='colorls -lA --gs --sd'
-alias l="exa -alF -s type --group-directories-first --icons"
-alias ll="exa -aF -s type --group-directories-first --icons"
 # alias ct="colorls --tree"
+# alias l="exa -alF -s type --group-directories-first --icons"
+# alias ll="exa -aF -s type --group-directories-first --icons"
+alias l="exa -alF -s type --group-directories-first"
+alias ll="exa -aF -s type --group-directories-first"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
+
+# alias ll='ls -alF --group-directories-first'
+# alias la='ls -A --group-directories-first'
+# alias l='ls -alF --group-directories-first'
 
 
 alias m="micro"
@@ -68,3 +74,4 @@ alias ddapache='docker run --rm -p 80:80 -v "$PWD":/usr/local/apache2/htdocs/ ht
 alias ddssh='ssh-keygen -f "/home/ivan/.ssh/known_hosts" -R "[n1.loc]:3000" && ssh-copy-id -p 3000 user@n1.loc && ssh -p 3000 user@n1.loc'
 
 alias blacktrm='flatpak run com.raggesilver.BlackBox'
+alias checkport='sudo netstat -alnp | grep'
