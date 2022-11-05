@@ -10,7 +10,7 @@
   enabled_plugins = CustomCommandsMenu, ActivityWatch, InactivityWatch, TestPlugin, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger
   title_use_system_font = False
   title_font = Courier 10
-  # putty_paste_style = True
+  putty_paste_style = True
   putty_paste_style_source_clipboard = True
 [keybindings]
 [profiles]
@@ -22,6 +22,7 @@
     cursor_color_fg = False
     # font = Courier 10
     font = Ubuntu Mono 13
+    # font = MesloLGS NF 13
     foreground_color = "#deddda"
     show_titlebar = False
     scrollback_lines = 5000
