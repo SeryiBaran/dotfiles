@@ -1,7 +1,6 @@
 [global_config]
   dbus = False
   geometry_hinting = True
-  tab_position = hidden
   broadcast_default = off
   scroll_tabbar = True
   homogeneous_tabbar = False
