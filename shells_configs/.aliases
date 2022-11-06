@@ -64,7 +64,7 @@ alias qrd='qrcp receive --port 3000 -k'
 alias brs='browser-sync start --server --files "**/*"'
 
 # Terminals
-alias xtrm='xterm -fa "MesloLGS NF" -fs 13'
+alias xtrm='xterm -fa "Ubuntu Mono" -fs 13'
 
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
