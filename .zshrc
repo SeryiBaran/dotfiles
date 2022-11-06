@@ -103,22 +103,22 @@ source $ZSH/oh-my-zsh.sh
 
 # eval "$(starship init zsh)"
 
-# if [ -f ~/.zsh_agnoster_config ]; then
-    # . ~/.zsh_agnoster_config
+# if [ -f ~/shells_configs/.zsh_agnoster_config ]; then
+    # . ~/shells_configs/.zsh_agnoster_config
 # fi
 
-if [ -f ~/.zsh_pure_config ]; then
-    . ~/.zsh_pure_config
+if [ -f ~/shells_configs/.zsh_pure_config ]; then
+    . ~/shells_configs/.zsh_pure_config
 fi
 
-# if [ -f ~/.zsh_omp_config ]; then
-    # . ~/.zsh_omp_config
+# if [ -f ~/shells_configs/.zsh_omp_config ]; then
+    # . ~/shells_configs/.zsh_omp_config
 # fi
 
-if [ -f ~/.shells_config ]; then
-    . ~/.shells_config
+if [ -f ~/shells_configs/.shells_config ]; then
+    . ~/shells_configs/.shells_config
 fi
 
-if [ -f ~/.zsh_aliases ]; then
-    . ~/.zsh_aliases
+if [ -f ~/shells_configs/.zsh_aliases ]; then
+    . ~/shells_configs/.zsh_aliases
 fi

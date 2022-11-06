@@ -115,10 +115,10 @@ fi
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
-if [ -f ~/.shells_config ]; then
-    . ~/.shells_config
+if [ -f ~/shells_configs/.shells_config ]; then
+    . ~/shells_configs/.shells_config
 fi
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/shells_configs/.bash_aliases ]; then
+    . ~/shells_configs/.bash_aliases
 fi

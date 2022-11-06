@@ -15,16 +15,16 @@
 [keybindings]
 [profiles]
   [[default]]
+    allow_bold = False
     icon_bell = False
-    background_color = "#060606"
     cursor_color = "#2ba50c"
     cursor_color_fg = False
-    font = Courier New 13
+    font = Courier 10
     foreground_color = "#deddda"
     show_titlebar = False
     scrollback_lines = 5000
     disable_mousewheel_zoom = True
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#3584e4:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#3584e4:#ff55ff:#55ffff:#ffffff"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
     word_chars = "-+~,./?%&#:_"
     use_system_font = False
     bold_is_bright = True
