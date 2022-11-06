@@ -18,7 +18,7 @@
     background_color = "#060606"
     cursor_color = "#2ba50c"
     cursor_color_fg = False
-    font = Courier New 13
+    font = Iosevka 13
     foreground_color = "#deddda"
     show_titlebar = False
     scrollback_lines = 5000

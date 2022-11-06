@@ -59,3 +59,4 @@
 - Ubuntu Mono
 - Fira Code
 - Courier New
+- Iosevka
