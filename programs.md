@@ -47,11 +47,11 @@
 - tor browser
 - golly
 - videomass
-- n
 - lazygit
 - asciinema + agg
 - flatpak
 - blackbox gtk4 term
+- terminator
 
 ## Шрифты
 
@@ -60,3 +60,5 @@
 - Fira Code
 - Courier New
 - Iosevka
+- Roboto Mono
+- Hack
