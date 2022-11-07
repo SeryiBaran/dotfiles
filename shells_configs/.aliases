@@ -1,10 +1,9 @@
-alias aliases='$EDITOR ~/.aliases'
+alias aliases='$EDITOR ~/shells_configs/.aliases'
 
-# Kubuntu default
+# Kubuntu default ls
 alias ll='ls -alF'
 alias la='ls -A'
-# alias l='ls -CF'
-alias l='ls -alF'
+alias l='ls -CF'
 
 # Color ls
 # alias l='colorls -A --gs --sd'
@@ -66,6 +65,7 @@ alias brs='browser-sync start --server --files "**/*"'
 # Terminals
 alias xtrm='xterm -fa "Hack" -fs 12'
 
+# Ruby
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
 # Docker
@@ -74,3 +74,7 @@ alias ddapache='docker run --rm -p 80:80 -v "$PWD":/usr/local/apache2/htdocs/ ht
 alias ddssh='ssh-keygen -f "/home/ivan/.ssh/known_hosts" -R "[n1.loc]:3000" && ssh-copy-id -p 3000 user@n1.loc && ssh -p 3000 user@n1.loc'
 
 alias checkport='sudo netstat -alnp | grep'
+
+# Copy/paste
+alias copy='xclip -i -selection clipboard'
+alias paste='xclip -o -selection clipboard'
