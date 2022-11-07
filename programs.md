@@ -62,3 +62,4 @@
 - Iosevka
 - Roboto Mono
 - Hack
+- Cascadia Code

@@ -18,7 +18,7 @@
     background_color = "#060606"
     cursor_color = "#2ba50c"
     cursor_color_fg = False
-    font = Hack 12
+    font = Cascadia Code 12
     foreground_color = "#deddda"
     show_titlebar = False
     scrollback_lines = 5000
