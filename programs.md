@@ -56,6 +56,8 @@
 
 ## Шрифты
 
+NF - nerd fonts
+
 - MesloLGS NF
 - Ubuntu Mono
 - Fira Code
@@ -64,4 +66,3 @@
 - Roboto Mono
 - Hack
 - Cascadia Code
-- Nerd Fonts
