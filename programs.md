@@ -52,6 +52,7 @@
 - flatpak
 - blackbox gtk4 term
 - terminator
+- mpv
 
 ## Шрифты
 
@@ -63,3 +64,4 @@
 - Roboto Mono
 - Hack
 - Cascadia Code
+- Nerd Fonts

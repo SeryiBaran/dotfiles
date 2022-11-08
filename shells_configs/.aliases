@@ -63,7 +63,7 @@ alias qrd='qrcp receive --port 3000 -k'
 alias brs='browser-sync start --server --files "**/*"'
 
 # Terminals
-alias xtrm='xterm -fa "Hack" -fs 12'
+alias xtrm='xterm -fa "Cascadia Code" -fs 12'
 
 # Ruby
 alias jk="bundle exec jekyll s --host=0.0.0.0"
