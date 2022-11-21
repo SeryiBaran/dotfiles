@@ -56,10 +56,6 @@ if [ -f ~/shells_configs/.zsh_pure_config ]; then
     . ~/shells_configs/.zsh_pure_config
 fi
 
-# if [ -f ~/shells_configs/.zsh_omp_config ]; then
-    # . ~/shells_configs/.zsh_omp_config
-# fi
-
 if [ -f ~/shells_configs/.shells_config ]; then
     . ~/shells_configs/.shells_config
 fi
