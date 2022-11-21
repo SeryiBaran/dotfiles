@@ -1,62 +1,74 @@
 ## Программы
 
+### GUI
+
+- Yandex Browser
+- Chromium
+- Firefox
+- Tor Browser
+- Crow Translate
+- Audacious
+- qBitTorrent
+- VirtualBox
+- QEMU
+- Telegram
+- Discord
+- Jami
+- KeePassXC
+- Sublime Text
+- VSCode
+- LibreOffice
+- FreeOffice
+- TLauncher
+- VokoscreenNG
+- Kdenlive
+- Obdidian.md
+- Foliate
+- Flameshot
+- Stacer
+- KolourPaint
+- GIMP
+- MyPaint
+- Krita
+- MPV
+- VLC
+- VideoMass
+- HandBrake
+- Play On Linux
+- Golly
+- Remmina
+- NoVNC
+- Filezilla
+- Asbru CM
+- Tilix
+- Terminator
+- HardInfo
+- Flatpak
+- Ventoy
+- Balena Etcher
+
+### CLI
+
 - bat
 - exa
 - htop
-- keepassxc
-- node (n)
 - zsh
-- qbittorrent
 - tmux
-- tilix
 - screenfetch
 - neofetch
-- remmina
 - mkcert
-- telegram-desktop
-- mypaint
-- chromium
-- yandex-browser
-- novnc
 - qrcp
 - qrencode
-- jekyll bundle ruby
 - docker
 - colorls
-- sublime-text
-- vokoscreenNG
-- tlauncher
-- virtualbox
-- vscode
-- obsidian md
-- flameshot
-- handbrake
-- kdenlive
-- crow translate
-- firefox
-- asbru cm
-- stacer
-- jami
-- libreoffice
-- gimp
-- foliate
-- filezilla
-- play on linux
-- discord
-- krita
-- tor browser
-- golly
-- videomass
 - lazygit
 - asciinema + agg
-- flatpak
-- blackbox gtk4 term
-- terminator
-- mpv
-- freeoffice
-- kolourpaint
-- ventoy
-- balena etcher
+
+### ЯП'Ы
+
+- Node.js (https://github.com/tj/n) (+ Yarn)
+- Python 3
+- Ruby (+ `bundle` & Jekyll)
 
 ## Шрифты
 
