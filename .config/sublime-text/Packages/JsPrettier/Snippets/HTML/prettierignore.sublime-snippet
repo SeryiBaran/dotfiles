@@ -1,0 +1,8 @@
+<snippet>
+  <content>
+    <![CDATA[<!-- prettier-ignore -->]]>
+  </content>
+  <tabTrigger>prettierignore</tabTrigger>
+  <scope>text.html.basic</scope>
+  <description>Prettier ignore next node (JsPrettier)</description>
+</snippet>

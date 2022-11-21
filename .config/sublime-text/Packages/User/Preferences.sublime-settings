@@ -1,0 +1,9 @@
+{
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_face": "Cascadia Code",
+	"theme": "Default Dark.sublime-theme",
+}

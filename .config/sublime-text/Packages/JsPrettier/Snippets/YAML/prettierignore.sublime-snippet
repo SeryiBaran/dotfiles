@@ -1,0 +1,8 @@
+<snippet>
+  <content>
+    <![CDATA[# prettier-ignore]]>
+  </content>
+  <tabTrigger>prettierignore</tabTrigger>
+  <scope>source.yaml</scope>
+  <description>Prettier ignore next node (JsPrettier)</description>
+</snippet>

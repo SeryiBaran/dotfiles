@@ -53,6 +53,10 @@
 - blackbox gtk4 term
 - terminator
 - mpv
+- freeoffice
+- kolourpaint
+- ventoy
+- balena etcher
 
 ## Шрифты
 
