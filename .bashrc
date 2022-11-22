@@ -98,12 +98,14 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export SHELLS_CONFIGS_DIR="$HOME/shells_configs"
+
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
-if [ -f ~/shells_configs/config.sh ]; then
-    . ~/shells_configs/config.sh
+if [ -f $SHELLS_CONFIGS_DIR/config.sh ]; then
+    . $SHELLS_CONFIGS_DIR/config.sh
 fi
 
-if [ -f ~/shells_configs/bash_aliases.sh ]; then
-    . ~/shells_configs/bash_aliases.sh
+if [ -f $SHELLS_CONFIGS_DIR/bash_aliases.sh ]; then
+    . $SHELLS_CONFIGS_DIR/bash_aliases.sh
 fi
