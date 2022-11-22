@@ -52,5 +52,5 @@ selection:
 
   save_to_clipboard: true
 
-shell:
-  program: tmux
+# shell:
+  # program: tmux

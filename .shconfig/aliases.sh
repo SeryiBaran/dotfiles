@@ -1,4 +1,4 @@
-alias aliases='$EDITOR .shconfig/aliases.sh'
+alias aliases="$EDITOR ~/.shconfig/aliases.sh"
 
 # Kubuntu default ls
 alias ll='ls -alF'
@@ -47,9 +47,10 @@ alias tarx="tar xzvf" # Extract tar
 alias q="exit"
 alias c="clear"
 
-# Ping
+# Network
 alias ping='ping -c 5'
 alias ping100="ping -c 100 -i 0.5"
+alias myip="ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' && curl https://ipinfo.io/ip"
 
 alias calcul="bc -l"
 
@@ -80,9 +81,6 @@ alias checkport='sudo netstat -alnp | grep'
 # Copy/paste
 alias copy='xclip -i -selection clipboard'
 alias paste='xclip -o -selection clipboard'
-
-# Network
-alias myip="ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' && curl https://ipinfo.io/ip"
 
 # Offices
 alias foword="~/freeoffice/textmaker"
