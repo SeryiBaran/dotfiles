@@ -1,0 +1,43 @@
+window:
+  opacity: 0.92
+
+cursor:
+  style: Block
+
+font:
+  normal:
+    family: Cascadia Code 
+  size: 12
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+  cursor:
+    text: '#F81CE5'
+    cursor: '#ffffff'
+
+  normal:
+    black:   '#000000'
+    red:     '#fe0100'
+    green:   '#00a600'
+    yellow:  '#feff00'
+    blue:    '#0066ff'
+    magenta: '#cc00ff'
+    cyan:    '#00ffff'
+    white:   '#d0d0d0'
+
+  bright:
+    black:   '#808080'
+    red:     '#fe0100'
+    green:   '#00d900'
+    yellow:  '#feff00'
+    blue:    '#0066ff'
+    magenta: '#cc00ff'
+    cyan:    '#00ffff'
+    white:   '#FFFFFF'
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+
+  save_to_clipboard: true

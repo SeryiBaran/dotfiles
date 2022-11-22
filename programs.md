@@ -39,21 +39,25 @@
 - Remmina
 - NoVNC
 - Filezilla
-- Asbru CM
-- Tilix
 - Terminator
 - HardInfo
 - Flatpak
 - Ventoy
 - Balena Etcher
+- Alacritty
+- Asbru CM
+- Terminator
+- Tilix
 
 ### CLI
 
+- tmux
+- bash
+- zsh
+- fish
 - bat
 - exa
 - htop
-- zsh
-- tmux
 - screenfetch
 - neofetch
 - mkcert
