@@ -6,12 +6,12 @@ fi
 
 export EDITOR="micro"
 
-if [ -f ~/shells_configs/.aliases ]; then
-    . ~/shells_configs/.aliases
+if [ -f ~/shells_configs/aliases.sh ]; then
+    . ~/shells_configs/aliases.sh
 fi
 
-if [ -f ~/shells_configs/extract.sh ]; then
-    . ~/shells_configs/extract.sh
+if [ -f ~/shells_configs/functions.sh ]; then
+    . ~/shells_configs/functions.sh
 fi
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).

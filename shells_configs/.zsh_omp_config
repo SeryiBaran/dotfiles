@@ -1,1 +1,0 @@
-eval "$(oh-my-posh init zsh --config ~/omp.json)"
