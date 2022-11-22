@@ -1,17 +1,27 @@
+env:
+  TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: "1"
+
 window:
-  opacity: 0.92
+  dimensions:
+    columns: 80
+    lines: 24
+  # opacity: 0.92
+  padding:
+    x: 10
+    y: 10
 
 cursor:
   style: Block
 
 font:
   normal:
-    family: Cascadia Code 
+    family: Cascadia Code
   size: 12
 
 colors:
   primary:
-    background: '#000000'
+    background: '#1A1A1A'
     foreground: '#ffffff'
   cursor:
     text: '#F81CE5'
