@@ -12,6 +12,7 @@
   putty_paste_style = True
   putty_paste_style_source_clipboard = True
 [keybindings]
+  help = None
 [profiles]
   [[default]]
     icon_bell = False
