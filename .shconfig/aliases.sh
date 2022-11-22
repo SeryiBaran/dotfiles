@@ -1,4 +1,4 @@
-alias aliases='$EDITOR $SHELLS_CONFIGS_DIR/aliases.sh'
+alias aliases='$EDITOR .shconfig/aliases.sh'
 
 # Kubuntu default ls
 alias ll='ls -alF'

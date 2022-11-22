@@ -7,22 +7,9 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-export SHELLS_CONFIGS_DIR="$HOME/shells_configs"
-
 # eval "$(starship init zsh)"
 
-# if [ -f $SHELLS_CONFIGS_DIR/agnoster.sh ]; then
-    # . $SHELLS_CONFIGS_DIR/agnoster.sh
-# fi
-
-if [ -f $SHELLS_CONFIGS_DIR/pure.sh ]; then
-    . $SHELLS_CONFIGS_DIR/pure.sh
-fi
-
-if [ -f $SHELLS_CONFIGS_DIR/config.sh ]; then
-    . $SHELLS_CONFIGS_DIR/config.sh
-fi
-
-if [ -f $SHELLS_CONFIGS_DIR/zsh_aliases.sh ]; then
-    . $SHELLS_CONFIGS_DIR/zsh_aliases.sh
-fi
+[[ -f ~/.shconfig/agnoster.sh ]] && source ~/.shconfig/agnoster.sh
+[[ -f ~/.shconfig/pure.sh ]] && source ~/.shconfig/pure.sh
+[[ -f ~/.shconfig/config.sh ]] && source ~/.shconfig/config.sh
+[[ -f ~/.shconfig/zsh_aliases.sh ]] && source ~/.shconfig/zsh_aliases.sh

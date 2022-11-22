@@ -6,17 +6,11 @@ fi
 
 export EDITOR="micro"
 
-if [ -f $SHELLS_CONFIGS_DIR/aliases.sh ]; then
-    . $SHELLS_CONFIGS_DIR/aliases.sh
-fi
-
-if [ -f $SHELLS_CONFIGS_DIR/functions.sh ]; then
-    . $SHELLS_CONFIGS_DIR/functions.sh
-fi
+[[ -f ~/.shconfig/functions.sh ]] && source ~/.shconfig/functions.sh
+[[ -f ~/.shconfig/aliases.sh ]] && source ~/.shconfig/aliases.sh
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
-export PATH="$PATH:$HOME/zx-scripts"
-export PATH="$PATH:$HOME/sb-tools"
+export PATH="$PATH:$HOME/zx-scripts:$HOME/sb-tools"
 
 # eval "$(oh-my-posh init $(oh-my-posh get shell) --config ~/omp.json)"
