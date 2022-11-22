@@ -4,7 +4,7 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
     source /etc/profile.d/vte-2.91.sh
 fi
 
-export EDITOR="micro"
+export EDITOR="micro -colorscheme my"
 
 [[ -f ~/.shconfig/functions.sh ]] && source ~/.shconfig/functions.sh
 [[ -f ~/.shconfig/aliases.sh ]] && source ~/.shconfig/aliases.sh

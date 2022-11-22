@@ -20,7 +20,7 @@ alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 # alias l='ls -alF --group-directories-first'
 
 
-alias m="micro"
+alias m="$EDITOR"
 alias chr="~/chromium/run.sh"
 alias novnc="~/novnc/utils/novnc_proxy"
 alias npa="npm-check-updates -u --interactive --format group"
