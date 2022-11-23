@@ -72,7 +72,7 @@ alias jk="bundle exec jekyll s --host=0.0.0.0"
 # Docker
 alias ddnginx='docker run --rm -p 80:80 -v "$PWD:/usr/share/nginx/html:ro" nginx:alpine'
 alias ddapache='docker run --rm -p 80:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:alpine'
-alias ddssh='ssh-keygen -f "~/.ssh/known_hosts" -R "[n1.loc]:3000" && ssh-copy-id -p 3000 user@n1.loc && ssh -p 3000 user@n1.loc'
+alias ddssh='ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[n1.loc]:3000" && ssh-copy-id -p 3000 user@n1.loc && ssh -p 3000 user@n1.loc'
 alias ddalpine='docker run -it --rm alpine sh'
 alias ddubuntu='docker run -it --rm ubuntu bash'
 
