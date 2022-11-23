@@ -53,8 +53,7 @@
 
 - tmux
 - bash
-- zsh
-- fish
+- zsh (+ oh-my-zsh + plugins)
 - bat
 - exa
 - htop
