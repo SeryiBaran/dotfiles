@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -e
+
+if [ -f ~/sb-tools/lib/sb-colors.sh ]; then
+    source ~/sb-tools/lib/sb-colors.sh
+fi
+
+USERNAME=$(git config user.name)
+
+echo -e "${Gre}Welcome to ${BGre}gita${Gre}, ${BGre}$USERNAME${RCol}!"
+
+echo -n -e "Enter branch name (default - ${BWhi}main${RCol}): "
+read BRANCH
+# echo -n "Enter Github repo name: "
+# read REPO
+echo -n -e "Use SSH? (Type ${BWhi}y/n${RCol}) (${BRed}REQUIRED${RCol}): "
+read SSH_BOOL
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+REPO=$(basename $(pwd))
+
+if [[ -z "$BRANCH" ]]; then
+   BRANCH="main"
+fi
+
+if [[ ! $(find . -maxdepth 1 | grep -P "readme" --ignore-case) ]]; then
+    echo "# $REPO" >> README.md
+fi
+
+if [ "$SSH_BOOL" == "y" ]; then
+    ORIGIN="git@github.com:$USERNAME/$REPO.git"
+elif [ "$SSH_BOOL" == "n" ]; then
+    ORIGIN="https://github.com/$USERNAME/$REPO.git"
+else
+    echo -e "${Red}Answer on ${BRed}\"Use SSH?\"${Red} is ${BRed}not valid${Red}! Exit!${RCol}"
+    exit 1
+fi
+
+git init
+git add .
+git commit -m "Init commit"
+git branch -M "$BRANCH"
+git remote add origin "$ORIGIN"
+git push -u origin "$BRANCH"

@@ -4,7 +4,7 @@ alias aliases="$EDITOR ~/.shconfig/aliases.sh"
 # alias l='ls -alF --group-directories-first'
 
 alias ll="exa -Fa -s type --group-directories-first"
-alias l="exa -GFlah -s type --group-directories-first"
+alias l="exa -Flah -s type --group-directories-first"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
 alias m="$EDITOR"
@@ -21,11 +21,10 @@ alias recas="asciinema rec"
 alias recasbash="asciinema rec -c bash"
 
 alias ping='ping -c 5'
-alias myip="ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p' && curl https://ipinfo.io/ip"
 alias checkport='sudo netstat -alnp | grep'
 
-alias qr='qrencode -m 2 -t utf8 <<< "$1"'
-alias qrpng='qrencode -m 2 -t png -o qr.png <<< "$1"'
+alias qr='qrencode -m 2 -t utf8 "$argv"'
+alias qrpng='qrencode -m 2 -t png -o qr.png "$argv"'
 alias qru='qrcp $1 --port 3000 -k'
 alias qrd='qrcp receive --port 3000 -k'
 

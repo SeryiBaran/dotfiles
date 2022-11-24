@@ -1,0 +1,35 @@
+#!/bin/bash
+
+set -e
+
+if [ -f ~/sb-tools/lib/sb-colors.sh ]; then
+    source ~/sb-tools/lib/sb-colors.sh
+fi
+
+echo -n -e "${BRed}WARNING!
+${Red}THIS COMMAND DELETE ALL DOCKER CONTAINERS, IMAGES, VOLUMES, CACHES E.T.C.
+Continue?${RCol} (Type y/n): "
+read CONFIRM
+
+if [[ ! "$CONFIRM" == "y" ]]; then
+    echo "
+
+
+Cancel!"
+    exit
+fi
+
+docker system prune --force --all
+docker system prune --force --volumes
+
+
+echo "
+
+
+Done!
+
+
+
+Result:"
+
+docker system df

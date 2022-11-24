@@ -48,12 +48,14 @@
 - Asbru CM
 - Terminator
 - Tilix
+- Screenkey
 
 ### CLI
 
 - tmux
 - bash
 - zsh (+ oh-my-zsh + plugins)
+- fish
 - bat
 - exa
 - htop

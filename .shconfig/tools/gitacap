@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -e
+
+if [ -f ~/sb-tools/lib/sb-colors.sh ]; then
+    source ~/sb-tools/lib/sb-colors.sh
+fi
+
+echoDone() {
+	echo -e "${Gre}Done${RCol}"
+}
+
+BRANCH=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+
+dir=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
+
+git add .
+git commit
+git push origin "$BRANCH"
+
+echo -e "${BGre}Successfully commited and pushed!${RCol}"
