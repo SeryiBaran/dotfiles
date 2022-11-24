@@ -3,8 +3,8 @@ alias aliases="$EDITOR ~/.shconfig/aliases.sh"
 # alias ll='ls -aF --group-directories-first'
 # alias l='ls -alF --group-directories-first'
 
-alias ll="exa -aF -s type --group-directories-first"
-alias l="exa -alF -s type --group-directories-first"
+alias ll="exa -Fa -s type --group-directories-first"
+alias l="exa -GFlah -s type --group-directories-first"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
 alias m="$EDITOR"
