@@ -54,3 +54,6 @@ selection:
 
 # shell:
   # program: tmux
+
+# import:
+  # - "~/.config/alacritty/oneDark.yml"
