@@ -54,8 +54,8 @@
 
 - tmux
 - bash
-- zsh (+ oh-my-zsh + plugins)
-- fish
+- zsh (+ oh-my-zsh + pure + plugins (git zsh-autosuggestions zsh-syntax-highlighting thefuck))
+- fish (+ fisher plugins (pure))
 - bat
 - exa
 - htop
