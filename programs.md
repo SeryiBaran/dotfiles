@@ -66,6 +66,9 @@
 - colorls
 - lazygit
 - asciinema + agg
+- caddy
+- git
+- httpie
 
 ### ЯП'Ы
 
