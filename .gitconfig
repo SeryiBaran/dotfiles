@@ -21,8 +21,8 @@
 	defaultBranch = master
 [gpg]
 	program = /usr/bin/gpg2
-[commit]
-	gpgsign = true
+# [commit]
+	# gpgsign = true
 [core]
 	pager = less -F -X
 [include]
