@@ -52,6 +52,8 @@
 
 ### CLI
 
+- micro
+- nvim
 - tmux
 - bash
 - zsh (+ oh-my-zsh + pure + plugins (git zsh-autosuggestions zsh-syntax-highlighting thefuck))
