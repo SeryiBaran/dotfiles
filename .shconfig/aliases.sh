@@ -30,3 +30,6 @@ alias qrd='qrcp receive --port 3000 -k'
 
 alias copy='xclip -i -selection clipboard'
 alias paste='xclip -o -selection clipboard'
+
+alias add-ssh-key-fish="eval (ssh-agent -c) && ssh-add ~/.ssh/sbgithub"
+alias add-ssh-key="eval '`ssh-agent -s`' && ssh-add ~/.ssh/sbgithub"
