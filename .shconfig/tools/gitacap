@@ -2,8 +2,8 @@
 
 set -e
 
-if [ -f ~/sb-tools/lib/sb-colors.sh ]; then
-    source ~/sb-tools/lib/sb-colors.sh
+if [ -f ~/.shconfig/tools/lib/sb-colors.sh ]; then
+    source ~/.shconfig/tools/lib/sb-colors.sh
 fi
 
 echoDone() {

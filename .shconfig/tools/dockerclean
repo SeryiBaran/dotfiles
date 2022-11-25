@@ -2,8 +2,8 @@
 
 set -e
 
-if [ -f ~/sb-tools/lib/sb-colors.sh ]; then
-    source ~/sb-tools/lib/sb-colors.sh
+if [ -f ~/.shconfig/tools/lib/sb-colors.sh ]; then
+    source ~/.shconfig/tools/lib/sb-colors.sh
 fi
 
 echo -n -e "${BRed}WARNING!
@@ -23,13 +23,11 @@ docker system prune --force --all
 docker system prune --force --volumes
 
 
-echo "
+echo -n -e "
 
+${Gre}Done!${RCol}
 
-Done!
-
-
-
-Result:"
+Result:
+"
 
 docker system df
