@@ -9,5 +9,5 @@ export EDITOR="micro -colorscheme my"
 
 # eval "$(oh-my-posh init $(oh-my-posh get shell) --config ~/omp.json)"
 
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-export PATH="$PATH:$HOME/.shconfig/tools"
+export N_PREFIX="$HOME/n"; PATH += ":$N_PREFIX/bin"
+PATH += "$PATH:$HOME/.shconfig/tools"
