@@ -6,8 +6,8 @@ if test -e ~/.shconfig/aliases.sh
     source ~/.shconfig/aliases.sh
 end
 
-export HISTSIZE=1000000
-export EDITOR="micro -colorscheme my"
+set HISTSIZE 1000000
+set EDITOR "micro -colorscheme my"
 
-set -x N_PREFIX "$HOME/n"; contains $N_PREFIX $PATH; or set -a PATH $N_PREFIX # Added by n-install (see http://git.io/n-install-repo).
-export PATH="$PATH:$HOME/.shconfig/tools"
+set -a PATH "$N_PREFIX/bin"
+set -a PATH "$HOME/.shconfig/tools"

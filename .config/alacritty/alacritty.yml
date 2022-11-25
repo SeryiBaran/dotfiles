@@ -17,7 +17,7 @@ cursor:
 font:
   normal:
     family: Cascadia Code
-  size: 12
+  size: 14
 
 colors:
   primary:

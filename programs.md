@@ -73,6 +73,7 @@
 - caddy
 - git
 - httpie
+- miniserve
 
 ### ЯП'Ы
 
