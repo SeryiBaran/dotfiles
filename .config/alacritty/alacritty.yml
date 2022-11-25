@@ -7,9 +7,9 @@ window:
     columns: 80
     lines: 24
   # opacity: 0.92
-  padding:
-    x: 10
-    y: 10
+  # padding:
+    # x: 10
+    # y: 10
 
 cursor:
   style: Block
