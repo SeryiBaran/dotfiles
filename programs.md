@@ -44,8 +44,9 @@
 - Flatpak
 - Ventoy
 - Balena Etcher
-- Alacritty
 - Asbru CM
+- Kitty
+- Alacritty
 - Terminator
 - Tilix
 - Screenkey
