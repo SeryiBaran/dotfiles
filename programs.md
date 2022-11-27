@@ -1,5 +1,7 @@
 ## Программы
 
+## I: Зачеркнутое - удалено или редко используется
+
 ### GUI
 
 - Yandex Browser
@@ -39,16 +41,15 @@
 - Remmina
 - NoVNC
 - Filezilla
-- Terminator
 - HardInfo
 - Flatpak
 - Ventoy
-- Balena Etcher
+- ~Balena Etcher~
 - Asbru CM
 - Kitty
 - Alacritty
-- Terminator
-- Tilix
+- ~Terminator~
+- ~Tilix~
 - Screenkey
 
 ### CLI
@@ -84,7 +85,7 @@
 
 ## Шрифты
 
-NF - nerd fonts
+## I: NF - nerd fonts
 
 - MesloLGS NF
 - Ubuntu Mono
