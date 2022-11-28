@@ -44,7 +44,7 @@
 - HardInfo
 - Flatpak
 - Ventoy
-- ~Balena Etcher~
+- Balena Etcher
 - Asbru CM
 - Kitty
 - Alacritty

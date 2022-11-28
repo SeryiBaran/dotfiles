@@ -14,7 +14,7 @@ alias c="clear"
 alias npa="npm-check-updates -u --interactive --format group"
 alias cla="bat --theme TwoDark"
 alias tb="nc termbin.com 9999"
-alias xtrm='xterm -fa "Cascadia Code" -fs 12'
+alias xtrm='xterm -fa "Cascadia Code" -fs 14 -bg grey3'
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
 alias recas="asciinema rec"
@@ -25,11 +25,13 @@ alias checkport='sudo netstat -alnp | grep'
 
 alias qr='qrencode -m 2 -t utf8 "$argv"'
 alias qrpng='qrencode -m 2 -t png -o qr.png "$argv"'
-alias qru='qrcp $1 --port 3000 -k'
-alias qrd='qrcp receive --port 3000 -k'
+alias qru='qrcp $1 --port 3000'
+alias qrd='qrcp receive --port 3000'
 
 alias copy='xclip -i -selection clipboard'
 alias paste='xclip -o -selection clipboard'
 
 alias add-ssh-key-fish="eval (ssh-agent -c) && ssh-add ~/.ssh/sbgithub"
 alias add-ssh-key="eval '`ssh-agent -s`' && ssh-add ~/.ssh/sbgithub"
+
+alias create-tar="tar -zcvf"
