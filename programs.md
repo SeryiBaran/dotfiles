@@ -1,7 +1,5 @@
 ## Программы
 
-## I: Зачеркнутое - удалено или редко используется
-
 ### GUI
 
 - Yandex Browser
@@ -48,8 +46,10 @@
 - Asbru CM
 - Kitty
 - Alacritty
-- ~Terminator~
-- ~Tilix~
+- Terminator
+- Tilix
+- Yakuake
+- Cool Retro Term
 - Screenkey
 
 ### CLI
