@@ -28,6 +28,7 @@ alias qr='qrencode -m 2 -t utf8 "$argv"'
 alias qrpng='qrencode -m 2 -t png -o qr.png "$argv"'
 alias qru='qrcp $1 --port 3000'
 alias qrd='qrcp receive --port 3000'
+alias qrserve="miniserve -Dzgq --readme --upload-files -p 3000 -i 0.0.0.0 ."
 
 alias copy='xclip -i -selection clipboard'
 alias paste='xclip -o -selection clipboard'

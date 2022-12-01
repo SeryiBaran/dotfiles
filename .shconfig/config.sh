@@ -11,4 +11,4 @@ export EDITOR="micro -colorscheme my"
 
 export N_PREFIX="$HOME/n"
 
-PATH="$PATH:$N_PREFIX/bin:$HOME/.shconfig/tools"
+export PATH="$PATH:$N_PREFIX/bin:$HOME/.shconfig/tools"
