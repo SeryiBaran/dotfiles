@@ -88,6 +88,8 @@
 
 ## I: NF - nerd fonts
 
+- Cascadia Code
+- Caskaydia Code NF
 - MesloLGS NF
 - Ubuntu Mono
 - Fira Code
@@ -95,4 +97,3 @@
 - Iosevka
 - Roboto Mono
 - Hack
-- Cascadia Code
