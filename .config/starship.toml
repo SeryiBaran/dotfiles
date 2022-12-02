@@ -18,9 +18,8 @@ $git_status\
 """
 
 right_format = """
-[](fg:#383C3E)\
+[](fg:#383C3E)\
 $localip\
-[█](#383C3E)\
 """
 
 # Disable the blank line at the start of the prompt
