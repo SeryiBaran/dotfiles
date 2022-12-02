@@ -21,7 +21,7 @@ font:
 
 colors:
   primary:
-    background: '#080808'
+    background: '#121212'
     foreground: '#ffffff'
   cursor:
     text: '#F81CE5'

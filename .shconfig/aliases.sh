@@ -14,7 +14,7 @@ alias c="clear"
 alias npa="npm-check-updates -u --interactive --format group"
 alias cla="bat --theme TwoDark"
 alias tb="nc termbin.com 9999"
-alias xtrm='xterm -fa "Cascadia Code" -fs 14 -bg grey3'
+alias xtrm='xterm -fa "Cascadia Code" -fs 14'
 alias zmux="zellij"
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 
