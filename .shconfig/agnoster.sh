@@ -1,4 +1,9 @@
-prompt_context() {}
+prompt_context() {
+  prompt_segment '#4e4e4e' '#DD4814' '\uf31b '
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment '#4e4e4e' default "%(!.%{%F{yellow}%}.)$USER"
+  fi
+}
 
 prompt_status() {
   local symbols
@@ -14,5 +19,7 @@ prompt_dir() {
   prompt_segment blue $CURRENT_FG '%25<...<%~%<<'
 }
 
-PROMPT="%{%f%b%k%}$(build_prompt)
-%F{green}❯%f "
+ZSH_THEME_NVM_PROMPT_PREFIX="  "
+ZSH_THEME_NVM_PROMPT_SUFFIX=" "
+
+RPROMPT='$FG[064]$(nvm_prompt_info)%{$reset_color%}'
