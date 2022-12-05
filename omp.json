@@ -73,7 +73,7 @@
           }
         },
         {
-          "background": "#906cff",
+          "background": "#42A329",
           "foreground": "#100e23",
           "properties": {
             "fetch_version": false
@@ -83,7 +83,7 @@
           "type": "python"
         },
         {
-          "background": "#6CA35E",
+          "background": "#5BC041",
           "foreground": "#ffffff",
           "style": "plain",
           "template": " \uE718 {{ .Full }} ",
