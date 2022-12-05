@@ -1,7 +1,7 @@
 fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
 
-PURE_PROMPT_SYMBOL="$"
+PURE_PROMPT_SYMBOL="%B$%b"
 
 zstyle :prompt:pure:path color "#059FFF"
 zstyle :prompt:pure:git:branch color "#00FF00"
