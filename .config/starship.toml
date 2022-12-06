@@ -3,7 +3,6 @@ command_timeout = 1000
 add_newline = false
 
 format = """
-[█](#383C3E)\
 $username\
 [](bg:#5A6063 fg:#383C3E)\
 $directory\
@@ -30,7 +29,7 @@ $localip\
 show_always = true
 style_user = "bg:#383C3E"
 style_root = "bg:#383C3E"
-format = '[ ]($style)'
+format = '[  ]($style)'
 
 [directory]
 style = "bg:#5A6063"
