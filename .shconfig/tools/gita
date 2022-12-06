@@ -2,9 +2,7 @@
 
 set -e
 
-if [ -f ~/.shconfig/tools/lib/sb-colors.sh ]; then
-    source ~/.shconfig/tools/lib/sb-colors.sh
-fi
+[[ -f  ~/.shconfig/tools/lib/sb-colors.sh ]] && source  ~/.shconfig/tools/lib/sb-colors.sh
 
 USERNAME=$(git config user.name)
 

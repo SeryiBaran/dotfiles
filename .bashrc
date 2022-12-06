@@ -98,6 +98,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-
 [[ -f ~/.shconfig/config.sh ]] && source ~/.shconfig/config.sh
+
+PS1="
+${debian_chroot:+($debian_chroot)}\[\033[0;34m\]\w\[\033[00m\]
+\[\033[0;32m\]\$\[\033[00m\] "
