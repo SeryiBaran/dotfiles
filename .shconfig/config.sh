@@ -19,3 +19,5 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 export N_PREFIX="$HOME/n"
 
 export PATH="$PATH:$N_PREFIX/bin:$HOME/.shconfig/tools"
+
+eval "$(zoxide init posix --hook prompt)"

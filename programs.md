@@ -77,6 +77,7 @@
 - git
 - httpie
 - miniserve
+- zoxide
 
 ### ЯП'Ы
 
