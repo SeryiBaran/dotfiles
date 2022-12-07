@@ -17,5 +17,5 @@ P.S. Директория `.github` нужна **только** на GitHub.
 ### Oh My Posh
 ![Тема Oh My Posh](.github/omp.png)
 
-### _Терминал_
+### Терминал
 ![Скриншот терминала](.github/terminal.png)
