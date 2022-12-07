@@ -7,16 +7,16 @@ alias ll="exa -Fa -s type --group-directories-first"
 alias l="exa -Flah -s type --group-directories-first"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
-alias m="$EDITOR"
 alias q="exit"
 alias c="clear"
-
+alias m="$EDITOR"
+alias cla="$MYPAGER"
 alias npa="npm-check-updates -u --interactive --format group"
-alias cla="bat --theme TwoDark"
 alias tb="nc termbin.com 9999"
 alias zmux="zellij"
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 alias vcp="rsync -ah --progress"
+alias ip="ip -color=auto"
 
 alias recas="asciinema rec"
 alias recasbash="asciinema rec -c bash"
