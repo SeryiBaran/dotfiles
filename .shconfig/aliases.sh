@@ -16,6 +16,7 @@ alias cla="bat --theme TwoDark"
 alias tb="nc termbin.com 9999"
 alias zmux="zellij"
 alias jk="bundle exec jekyll s --host=0.0.0.0"
+alias vcp="rsync -ah --progress"
 
 alias recas="asciinema rec"
 alias recasbash="asciinema rec -c bash"
