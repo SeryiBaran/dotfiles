@@ -17,6 +17,7 @@ alias zmux="zellij"
 alias jk="bundle exec jekyll s --host=0.0.0.0"
 alias vcp="rsync -ah --progress"
 alias ip="ip -color=auto"
+alias neofetch-table='neofetch --ascii_distro LFS --color_blocks off | column -ts ":" -o "" && neofetch --off --disable $(cat .config/neofetch/config.conf | grep -oP "(?<=info )\w+|(?<=.\" )\w+" | sed -e "/^cols$/d" | tr "\n" " ") | tail -n +2'
 
 alias recas="asciinema rec"
 alias recasbash="asciinema rec -c bash"

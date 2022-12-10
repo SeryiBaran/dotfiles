@@ -30,6 +30,7 @@
 - GIMP
 - MyPaint
 - Krita
+- SMPlayer
 - MPV
 - VLC
 - VideoMass
