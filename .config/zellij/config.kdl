@@ -129,7 +129,7 @@ keybinds {
     }
     shared_except "locked" {
         bind "Ctrl g" { SwitchToMode "Locked"; }
-        // bind "Ctrl q" { Quit; }
+        bind "Ctrl q" { Quit; }
         bind "Alt n" { NewPane; }
         bind "Alt h" "Alt Left" { MoveFocusOrTab "Left"; }
         bind "Alt l" "Alt Right" { MoveFocusOrTab "Right"; }
@@ -137,14 +137,6 @@ keybinds {
         bind "Alt k" "Alt Up" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
-        // My
-        unbind "Ctrl q"
-        bind "F2" { NewTab; }
-        bind "F3" { GoToPreviousTab; }
-        bind "F4" { GoToNextTab; }
-        bind "F5" { NewPane "Down"; }
-        bind "F6" { NewPane "Right"; }
-        bind "F8" { CloseFocus; }
     }
     shared_except "normal" "locked" {
         bind "Enter" "Esc" { SwitchToMode "Normal"; }
@@ -170,6 +162,15 @@ keybinds {
     shared_except "tmux" "locked" {
         bind "Ctrl b" { SwitchToMode "Tmux"; }
     }
+	normal {
+	    unbind "Ctrl q"
+	    bind "F2" { NewTab; }
+	    bind "F3" { GoToPreviousTab; }
+	    bind "F4" { GoToNextTab; }
+	    bind "F5" { NewPane "Down"; }
+	    bind "F6" { NewPane "Right"; }
+	    bind "F8" { CloseFocus; }
+	}
 }
 
 plugins {
@@ -301,3 +302,4 @@ plugins {
 // The folder in which Zellij will look for themes
 //
 // theme_dir "/path/to/my/theme_dir"
+

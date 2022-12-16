@@ -52,6 +52,8 @@
 - Yakuake
 - Cool Retro Term
 - Screenkey
+- Ark
+- PeaZip
 
 ### CLI
 
