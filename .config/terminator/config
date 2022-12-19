@@ -7,11 +7,18 @@
   title_hide_sizetext = True
   title_transmit_bg_color = "#99c1f1"
   enabled_plugins = CustomCommandsMenu, ActivityWatch, InactivityWatch, TestPlugin, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger
+  suppress_multiple_term_dialog = True
   title_use_system_font = False
   title_font = Courier 10
   putty_paste_style = True
   putty_paste_style_source_clipboard = True
 [keybindings]
+  new_tab = F2
+  split_horiz = F5
+  split_vert = F6
+  close_term = F8
+  next_tab = F3
+  prev_tab = F4
   help = None
 [profiles]
   [[default]]
@@ -22,9 +29,9 @@
     font = Cascadia Code 12
     foreground_color = "#deddda"
     show_titlebar = False
+    scrollbar_position = hidden
     scrollback_lines = 5000
-    disable_mousewheel_zoom = True
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#3584e4:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#3584e4:#ff55ff:#55ffff:#ffffff"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#3584e4:#aa00aa:#00aaaa:#bfbfbf:#555555:#ff5555:#55ff55:#ffff55:#3584e4:#ff55ff:#55ffff:#ffffff"
     word_chars = "-+~,./?%&#:_"
     use_system_font = False
     bold_is_bright = True
