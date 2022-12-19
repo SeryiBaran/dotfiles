@@ -6,6 +6,7 @@
   homogeneous_tabbar = False
   title_hide_sizetext = True
   title_transmit_bg_color = "#99c1f1"
+  inactive_color_offset = 1.0
   enabled_plugins = CustomCommandsMenu, ActivityWatch, InactivityWatch, TestPlugin, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, Logger
   suppress_multiple_term_dialog = True
   title_use_system_font = False
@@ -31,7 +32,7 @@
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_lines = 5000
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#3584e4:#aa00aa:#00aaaa:#bfbfbf:#555555:#ff5555:#55ff55:#ffff55:#3584e4:#ff55ff:#55ffff:#ffffff"
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#3584e4:#aa00aa:#00aaaa:#bebebe:#555555:#ff5555:#55ff55:#ffff55:#3584e4:#ff55ff:#55ffff:#ffffff"
     word_chars = "-+~,./?%&#:_"
     use_system_font = False
     bold_is_bright = True
