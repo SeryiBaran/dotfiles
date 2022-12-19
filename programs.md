@@ -46,9 +46,9 @@
 - Balena Etcher
 - Asbru CM
 - Kitty
-- Alacritty
 - Terminator
 - Tilix
+- Alacritty
 - Yakuake
 - Cool Retro Term
 - Screenkey
