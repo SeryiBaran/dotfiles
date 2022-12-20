@@ -164,12 +164,6 @@ keybinds {
     }
 	normal {
 	    unbind "Ctrl q"
-	    bind "F2" { NewTab; }
-	    bind "F3" { GoToPreviousTab; }
-	    bind "F4" { GoToNextTab; }
-	    bind "F5" { NewPane "Down"; }
-	    bind "F6" { NewPane "Right"; }
-	    bind "F8" { CloseFocus; }
 	}
 }
 

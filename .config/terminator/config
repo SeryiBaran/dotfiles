@@ -14,12 +14,6 @@
   putty_paste_style = True
   putty_paste_style_source_clipboard = True
 [keybindings]
-  new_tab = F2
-  split_horiz = F5
-  split_vert = F6
-  close_term = F8
-  next_tab = F3
-  prev_tab = F4
   help = None
 [profiles]
   [[default]]
