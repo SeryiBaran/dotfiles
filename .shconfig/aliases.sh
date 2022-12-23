@@ -8,7 +8,7 @@ alias l="exa -Flah -s type --group-directories-first"
 alias ct='l --tree --ignore-glob ".git|node_modules|.parcel-cache|.cache"'
 
 alias q="exit"
-alias c="clear"
+alias c="tput reset"
 alias m="$EDITOR"
 alias cla="$MYPAGER"
 alias npa="npm-check-updates -u --interactive --format group"
