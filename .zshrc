@@ -17,3 +17,8 @@ source $ZSH/oh-my-zsh.sh
 # PROMPT="
 # %F{#0D73CC}%~%{$reset_color%}
 # %F{green}$%{$reset_color%} "
+
+# https://unix.stackexchange.com/questions/273529/shorten-path-in-zsh-prompt
+PS1="
+ $c[bold]$c[green]╭─%n$c[reset] at $c[bold]$c[magenta]%M$c[reset] in $c[bold]$c[blue]%(5~|%-1~/…/%3~|%4~)$c[reset]
+ $c[bold]$c[green]╰─λ$c[reset] "

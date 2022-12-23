@@ -14,6 +14,7 @@ export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
+[[ -f ~/.shconfig/zsh_colors.sh ]] && source ~/.shconfig/zsh_colors.sh
 [[ -f ~/.shconfig/aliases.sh ]] && source ~/.shconfig/aliases.sh
 
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
