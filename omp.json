@@ -30,14 +30,14 @@
           "type": "root"
         },
         {
-          "background": "#222222",
+          "background": "#111111",
           "foreground": "#cccccc",
           "style": "plain",
           "template": " {{ if .WSL }}\uf68e {{ end }}{{.Icon}} ",
           "type": "os"
         },
         {
-          "background": "#222222",
+          "background": "#333333",
           "foreground": "#cccccc",
           "style": "plain",
           "template": " {{ if .SSHSession }}\uf817 {{ end }}{{ .UserName }}{{ if .SSHSession }}@{{ .HostName }}{{ end }} ",
