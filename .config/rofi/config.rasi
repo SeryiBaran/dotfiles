@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun,ssh";
+ font: "Hack 10";
+ combi-modi: "drun";
+}
+@theme "/home/ivan/.local/share/rofi/themes/rounded-blue-dark.rasi"

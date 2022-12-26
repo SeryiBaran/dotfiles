@@ -17,8 +17,6 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 [[ -f ~/.shconfig/zsh_colors.sh ]] && source ~/.shconfig/zsh_colors.sh
 [[ -f ~/.shconfig/aliases.sh ]] && source ~/.shconfig/aliases.sh
 
-[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
-
 export N_PREFIX="$HOME/n"
 
 export PATH="$PATH:$N_PREFIX/bin:$HOME/.shconfig/tools"

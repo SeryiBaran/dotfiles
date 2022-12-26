@@ -54,6 +54,8 @@
 - Screenkey
 - Ark
 - PeaZip
+- Baobab
+- Rofi
 
 ### CLI
 
@@ -67,6 +69,7 @@
 - bat
 - exa
 - htop
+- btop
 - screenfetch
 - neofetch
 - mkcert
@@ -101,3 +104,7 @@
 - Iosevka
 - Roboto Mono
 - Hack
+
+## Иконки
+
+- Papirus
