@@ -95,6 +95,7 @@
 
 ## I: NF - nerd fonts
 
+- Terminus (TTF)
 - Cascadia Code
 - Caskaydia Code NF
 - MesloLGS NF
