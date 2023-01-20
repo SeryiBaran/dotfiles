@@ -109,3 +109,22 @@
 ## Иконки
 
 - Papirus
+
+## Расширения в VSCode
+
+- "christian-kohler.path-intellisense"
+- "davidanson.vscode-markdownlint"
+- "dbaeumer.vscode-eslint"
+- "dsznajder.es7-react-js-snippets"
+- "eamodio.gitlens"
+- "editorconfig.editorconfig"
+- "formulahendry.code-runner"
+- "foxundermoon.shell-format"
+- "oderwat.indent-rainbow"
+- "pmneo.tsimporter"
+- "styled-components.vscode-styled-components"
+- "stylelint.vscode-stylelint"
+- "xabikos.javascriptsnippets"
+- "zhuangtongfa.material-theme"
+- "wakatime.vscode-wakatime"
+- "esbenp.prettier-vscode"
