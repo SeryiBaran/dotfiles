@@ -38,3 +38,5 @@ alias add-ssh-key-fish="eval (ssh-agent -c) && ssh-add ~/.ssh/sbgithub"
 alias add-ssh-key="eval '`ssh-agent -s`' && ssh-add ~/.ssh/sbgithub"
 
 alias create-tar="tar -zcvf"
+
+alias yarn="EDITOR=subl yarn"
