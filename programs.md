@@ -128,3 +128,20 @@
 - "zhuangtongfa.material-theme"
 - "wakatime.vscode-wakatime"
 - "esbenp.prettier-vscode"
+
+## Wakapi
+`~/.wakatime.cfg`
+```diff
++[settings]
++api_url = http://localhost:3000/api
++api_key = wakapi_key
+```
+
+WakaTime sublime settings
+```
+[settings]
+{
+-  "api_key": "wakatime_key",
++  "api_key": "wakapi_key"
+}
+```
