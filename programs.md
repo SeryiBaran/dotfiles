@@ -56,6 +56,7 @@
 - PeaZip
 - Baobab
 - Rofi
+- Mockoon
 
 ### CLI
 

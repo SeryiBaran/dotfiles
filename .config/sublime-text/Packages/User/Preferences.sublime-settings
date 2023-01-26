@@ -1,9 +1,11 @@
 {
-	"font_size": 16,
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"font_face": "Cascadia Code",
-	"theme": "Default Dark.sublime-theme",
+  "font_size": 11,
+  "ignored_packages": ["Vintage",
+  ],
+  "font_face": "Fira Code",
+  "theme": "Adaptive.sublime-theme",
+  "color_scheme": "Monokai.sublime-color-scheme",
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "detect_indentation": false,
 }
