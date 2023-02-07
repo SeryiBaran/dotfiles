@@ -13,6 +13,7 @@
 	# gpgsign = true
 [core]
 	pager = less -F -X
+	autocrlf = true
 [include]
     path = ~/.gitaliases
 [alias]
@@ -28,3 +29,5 @@
 	sg = status
 	df = diff
 	cmt = commit
+[safe]
+	directory = *
